@@ -1,0 +1,71 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .main-title {
+    text-shadow: 2px 2px 2px aliceblue;
+    color: darkorange;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 100px;
+  }
+  
+  .company-details {
+    color: #dd5746;
+    text-decoration: underline;
+  }
+  
+  .About-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  .image-About {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .company-image {
+    width: 600px;
+    height: auto;
+    margin-bottom: 200px;
+    margin-right: 80px;
+    object-fit:contain;
+  }
+  
+  .text-About {
+    width: 50%;
+    color: aliceblue;
+    padding: 0 20px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 25px;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .paragraph::before{
+    content: "•"; 
+    color: red;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+  }
+  

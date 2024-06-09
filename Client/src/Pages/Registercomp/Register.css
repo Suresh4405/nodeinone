@@ -1,0 +1,27 @@
+.login-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+ 
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;    
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+
+}
+.bannerVideo {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+ }
+.Regst{
+text-align: center;
+padding-bottom: 1rem;
+  color: black;
+}

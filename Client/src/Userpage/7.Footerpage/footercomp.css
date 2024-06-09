@@ -1,0 +1,55 @@
+.footer {
+    background-color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    
+  }
+  
+  .Compy-name{
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .footer-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* .footer-center a { */
+    /* margin-right: 30px; */
+  /* } */
+  
+  .footer-right a {
+    text-decoration: none;
+    color: red;
+    margin-right: 90px;
+  }
+  .Social-media1{
+    width: 35px;
+    height: 40px;
+    object-fit: contain;
+  }
+  .Social-media2{
+    width: 60px;
+    height: 60px;
+    margin-top: -7px;
+    object-fit: contain;
+  }
+  .Social-media3{
+    width: 55px;
+    height: 55px;
+    margin-top: -7px;
+    padding-right: 2px;
+    object-fit: contain;
+  }
+  .Social-media4{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }

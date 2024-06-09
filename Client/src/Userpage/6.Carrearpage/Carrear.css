@@ -1,0 +1,46 @@
+.Carrear-back{
+    display: flex;
+    flex-direction: column;
+    width: auto; 
+    height: auto;
+    background-image: url("../../assets/path.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+.dis-page{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightyellow;
+    margin-top: 55px;
+    margin-left: 60px;
+
+}
+.dis2-page{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightyellow;
+    margin-left: 60px;
+
+}
+.dis3pa{
+    color: lightyellow;
+    margin-left: 60px;
+    font-size: 30px; 
+    margin-top: 40px; 
+}
+.Button-sear{
+    color: aliceblue;
+    background-color: lightsalmon;
+    margin-left: 60px;
+    width: 250px;
+    font-size: 30px; 
+    margin-top: 40px;   
+    border: none;
+}
+.Button-sear:hover{
+    color: aliceblue;
+    background-color: darkkhaki;
+}

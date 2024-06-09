@@ -1,0 +1,27 @@
+/* About.css */
+.New-About {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  .Offers-1 {
+    text-shadow: 2px 2px 20px aliceblue;
+    color: darkorange;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+  }
+  
+  .mapped-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin-top: 80px;
+
+  }
+  

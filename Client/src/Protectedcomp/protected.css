@@ -1,0 +1,111 @@
+/* App.css */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ninjas-logos {
+    width: 40px;
+    height: auto;
+    margin-left: 80px;
+    cursor: pointer;
+    animation: bounce 0.4s ease infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .ninjas-logos:hover {
+    animation-play-state: paused;
+  }
+  
+  .heading {
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+  }
+  
+  .heading:hover {
+    color: darkcyan;
+  }
+  
+  .right-side {
+    display: flex;
+    gap: 45px;
+    margin-right: 55px;
+  }
+  
+  .Services-c {
+    font-size: 16px;
+    color: darkorange;
+    text-transform: uppercase;
+  }
+  
+  .Services-c:hover {
+    color: greenyellow;
+    text-shadow: 5px 5px 20px aliceblue;
+    cursor: pointer;
+  }
+  
+  
+  /* toogle bar */
+
+  .sidebar {
+    background-color: black;
+    color: aliceblue;
+    width: 320px;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999; /* Ensure sidebar is above other content */
+    overflow-y: auto;
+    padding-top: 60px;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10%;
+  }
+  
+  .content {
+    margin-top: 70px;
+  }
+  

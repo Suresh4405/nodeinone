@@ -1,0 +1,47 @@
+
+.total-card1 {
+  width: auto;
+  height: 420px; 
+  margin-top: 70px; 
+  box-sizing: border-box;
+  border-color: aliceblue;
+  background-color:#000000;
+}
+.total-card1:hover{
+ cursor: pointer;
+  background-color: aliceblue;
+  transform: scale(1.03)
+ 
+}
+
+
+.card-1title {
+  font-size: 18px; 
+  text-align: center;
+  margin-top: 10px; 
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #DD5746;
+}
+
+.x1para{
+  font-size: 14px; 
+  font-family: "Style Script", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color:darkcyan;
+  margin-top: 20px;
+  
+}
+
+.Navi-butt{
+  color: #DD5746;
+  background-color: #000000;
+  padding: 20px;
+  border: none;
+ 
+}
+.Navi-butt:hover{
+  background-color:black ;
+}
